@@ -9,9 +9,10 @@ iris.plot()
 #bi-
 iris.plot(kind="scatter", x="sepal width", y="sepal length")
 plt.title("bi-", fontsize=16)
-
-#bi-
-iris.plot(kind="scatter", x="petal width", y="sepal length")
+#vs
+iris.plot(kind="scatter", x="sepal width", y="sepal width")
+#vs
+iris.plot(kind="scatter", x="sepal width", y="sepal length")
 
 #
 plt.figure()
