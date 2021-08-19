@@ -10,3 +10,8 @@ iris.groupby(by = "sepal width").mean()
 
 #
 iris.groupby(by = iris.columns[2]).mean()
+
+#
+iris.cov()
+#bi-
+iris.corr()
